@@ -1,0 +1,64 @@
+:root{
+    --black : hsl(0, 2%, 12%);
+}
+
+*{
+    color: white;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: var(--black);
+    padding: 0px;
+}
+
+.musicBtn{
+    padding: 5px 20px;
+    background-color: var(--black);
+    border: none;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.242);
+    transition: all 0.25s ease;
+    cursor: pointer;
+    margin-inline: 20px;
+}
+
+.musicBtn:active{
+    transform: scale(0.85);
+}
+
+.audio {
+    border: 2px solid rgba(255, 255, 255, 0.265);
+    border-radius: 5px;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.dicegame{
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.265);
+    border-radius: 5px;
+    padding: 30px 10px;
+}
+
+.dicegame h3{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+.dicegame button{
+    padding: 5px 20px;
+    background-color: var(--black);
+    border: none;
+    font-size: 1.2em;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.242);
+    transition: all 0.25s ease;
+    cursor: pointer;
+    margin-inline: 20px;
+}
+
+.dicegame button:active{
+    transform: scale(0.85);
+}

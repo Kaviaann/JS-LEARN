@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JavaScript</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="audio">
+        
+        <audio type="audio/mp3" id="music">
+
+            <source src="/audio/y2mate.com - Laufey  Falling Behind Official Audio.mp3">
+
+        </audio>
+
+            <button class="musicBtn" onclick="mute();">Mute</button>
+            <button class="musicBtn" onclick="loop();">Loop</button>
+            <button class="musicBtn" onclick="reset();">Reset</button>
+            <button class="musicBtn" onclick="stop();">Stop</button>
+            <button class="musicBtn" onclick="play();">Play</button>
+
+    
+    </div>
+
+
+
+    <div class="dicegame">
+
+        <h3 id="numberDice">-</h3>
+
+        <p>Role : <span id="role"></span></p>
+
+        <button id="rDice">Roll Dice</button>
+
+    </div>
+
+    <!-- Link JS -->
+
+    <script src="main.js"></script>
+
+</body>
+</html>
